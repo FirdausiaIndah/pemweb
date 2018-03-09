@@ -4,11 +4,12 @@
     $tinggi = $_GET['tinggi'];
     $volume = $panjang * $lebar * $tinggi;
     $Luas = 2 * ($panjang*$lebar + $panjang*$tinggi + $lebar*$tinggi);
+    $Keliling = 4 * ($panjang + $lebar + $tinggi);
 ?>
 <!DOCTYPE html>
 <hmtl>
     <head>
-        <title>Rumus Balok</title>
+        <title>Rumus Kubus</title>
         <style type="text/css">
 			body {
 			background: #cccccc; 
@@ -54,6 +55,7 @@
             <?php
                 echo "Volume Balok = ".$volume." cm^3 <br/>";
                 echo "Luas Balok = " .$Luas. " cm^2 <br/>" ;
+                echo "Keliling Balok = " .$Keliling. "cm <br/>"; 
             ?>
         </form>
         </center>
