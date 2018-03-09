@@ -31,29 +31,29 @@
 		<div class="form-group">
 			<label for="fk">Fakultas</label>
 			<select class="form-control" name="fakultas">
-				<option value = "fk">Fakultas Kedokteran</option>
-				<option>Fakultas Kedokteran Gigi</option>
-				<option>Fakultas Kedokteran Hewan</option>
-				<option>Fakultas Ilmu Komputer</option>
-				<option>Fakultas Ekonomi dan Bisnis</option>
-				<option>Fakultas Teknologi Pertanian</option>
-				<option>Fakultas Teknik</option>
-				<option>Fakultas Hukum</option>
-				<option>Fakultas Pertanian</option>
-				<option>Fakultas Ilmu Administrasi</option>
-				<option>Fakultas Perikananan dan Ilmu Kelautan</option>
-				<option>Fakultas Peternakan</option>
-				<option>Fakultas Vokasi</option>
-				<option>Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
+				<option value = "Fakultas Kedokteran">Fakultas Kedokteran</option>
+				<option value="Fakultas Kedokteran Gigi">Fakultas Kedokteran Gigi</option>
+				<option value="Fakultas Kedokteran Hewan">Fakultas Kedokteran Hewan</option>
+				<option value="Fakultas Ilmu Komputer">Fakultas Ilmu Komputer</option>
+				<option value="Fakultas Ekonomi dan Bisnis">Fakultas Ekonomi dan Bisnis</option>
+				<option value="Fakultas Teknologi Pertanian">Fakultas Teknologi Pertanian</option>
+				<option value="Fakultas Teknik">Fakultas Teknik</option>
+				<option value="Fakultas Hukum">Fakultas Hukum</option>
+				<option value="Fakultas Pertanian">Fakultas Pertanian</option>
+				<option value="Fakultas Ilmu Administrasi">Fakultas Ilmu Administrasi</option>
+				<option value="Fakultas Perikanan dan Ilmu Kelautan">Fakultas Perikananan dan Ilmu Kelautan</option>
+				<option value="Fakultas Peternakan">Fakultas Peternakan</option>
+				<option value="Fakultas Vokasi">Fakultas Vokasi</option>
+				<option value="Fakultas Matematika dan Ilmu Pengetahuan">Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
 			</select>
 		</div>
 		<div class="form-group">
 			<label for="fk">Angkatan</label>
-			<select class="form-control">
-				<option>2014</option>
-				<option>2015</option>
-				<option>2016</option>
-				<option>2017</option>
+			<select class="form-control" name="angkatan">
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
 			</select>
 		</div>
 		<div class="form-group">
@@ -79,52 +79,52 @@
 		<div class="form-group">
 			<label for="orga">Divisi (maksimal 2)</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Wherever Needed">
+			<input type="checkbox" class="form-check-input" name="divisi[]" value="Humas" id="Wherever Needed">
 			<label class="form-check-label" for="Whereverneeded">Humas</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Decoration">
+			<input type="checkbox" class="form-check-input" name="divisi[]" value="Kominfo" id="Decoration">
 			<label class="form-check-label" for="Decoration">Kominfo</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Game">
+			<input type="checkbox" class="form-check-input" name="divisi[]" value="Kestari" id="Game">
 			<label class="form-check-label" for="Game">Kestari</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Food">
+			<input type="checkbox" class="form-check-input" name="divisi[]" value="Bendahara" id="Food">
 			<label class="form-check-label" for="Food">Bendahara</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Arts">
+			<input type="checkbox" class="form-check-input" name="divisi[]" value="PSDM" id="Arts">
 			<label class="form-check-label" for="Arts">PSDM</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Others">
+			<input type="checkbox" class="form-check-input" name="divisi[]" value="Kewirausahaan" id="Others">
 			<label class="form-check-label" for="others">Kewirausahaan</label>
 		</div>
 		<div class="form-group">
 			<label for="orga">Alat yang dimiliki untuk menunjang organisasi</label>
 			<br
-			<input type="checkbox" class="form-check-input" id="Wherever Needed">
+			<input type="checkbox" class="form-check-input" name="alatyang[]" value="Handphone" id="Wherever Needed">
 			<label class="form-check-label" for="Whereverneeded">Handphone</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Decoration">s
+			<input type="checkbox" class="form-check-input" name="alatyang[]" value="Laptop" id="Decoration">
 			<label class="form-check-label" for="Decoration">Laptop</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Game">
+			<input type="checkbox" class="form-check-input" name="alatyang[]" value="Kamera" id="Game">
 			<label class="form-check-label" for="Game">Kamera</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Food">
+			<input type="checkbox" class="form-check-input" name="alatyang[]" value="Sepeda Motor" id="Food">
 			<label class="form-check-label" for="Food">Sepeda Motor</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Arts">
+			<input type="checkbox" class="form-check-input" name="alatyang[]" value="Mobil" id="Arts">
 			<label class="form-check-label" for="Arts">Mobil</label>
 			<br>
-			<input type="checkbox" class="form-check-input" id="Others">
+			<input type="checkbox" class="form-check-input" name="alatyang[]" value="danlainlain" id="Others">
 			<label class="form-check-label" for="others">Others</label>
 		</div>
 		<div class="form-group">
 			<label for="offers">Motivasi mengikuti organisasi</label>
-			<textarea class="form-control" id="offers" rows="3" placeholder="Motivasi saya adalah..."></textarea>
+			<textarea class="form-control" name="motivasi" id="offers" rows="3" placeholder="Motivasi saya adalah..."></textarea>
 		</div>
 		<div class="form-group">
 			<label for="offers">Inovasi atau Harapan Forum Perempuan Brawijaya 2018</label>
-			<textarea class="form-control" id="offers" rows="3" placeholder="Inovasi saya adalalah.."></textarea>
+			<textarea class="form-control" name="inovasi" id="offers" rows="3" placeholder="Inovasi saya adalalah.."></textarea>
 		</div>
 
 		

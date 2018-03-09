@@ -13,7 +13,7 @@
   $alatyang = $_POST['alatyang'];
   $motivasi = $_POST['motivasi'];
   $inovasi = $_POST['inovasi'];
-  $tmpFile = $_FILES['foto']['tmp_name'];
+  
   $foto = $_FILES['fileUpload']['tmp_name'];
 
   move_uploaded_file($foto, "profile_picture.jpg");
